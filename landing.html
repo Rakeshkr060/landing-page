@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attractive Landing Page</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f1b5d9;
+        }
+        header {
+            background: linear-gradient(135deg, rgba(103, 245, 150, 0.8), rgba(167, 119, 227, 0.8)), url('https://via.placeholder.com/1500x500');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 4em 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        main {
+            padding: 4em 2em;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        main h2 {
+            color: #333;
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+        }
+        main p {
+            color: #666;
+            font-size: 1.2em;
+            margin-bottom: 2em;
+            line-height: 1.6em;
+        }
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 1em;
+            color: white;
+            background-color: #6e8efb;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #a777e3;
+            transform: translateY(-3px);
+        }
+        .features, .testimonials, .contact {
+            padding: 4em 2em;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .feature, .testimonial {
+            margin-bottom: 2em;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        footer p {
+            margin: 0;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Landing Page</h1>
+    </header>
+    <main>
+        <h2>Your Success Starts Here</h2>
+        <p>Discover our services and how we can help you achieve your goals. Join us today and take the first step towards a brighter future.</p>
+        <a href="#" class="btn">Get Started</a>
+    </main>
+    <section class="features">
+        <h2>Features</h2>
+        <div class="feature">
+            <h3>Feature One</h3>
+            <p>Our first feature provides incredible value and benefits to help you succeed.</p>
+        </div>
+        <div class="feature">
+            <h3>Feature Two</h3>
+            <p>Our second feature is designed to streamline your workflow and increase efficiency.</p>
+        </div>
+        <div class="feature">
+            <h3>Feature Three</h3>
+            <p>Our third feature offers unparalleled support and resources for all your needs.</p>
+        </div>
+    </section>
+    <section class="testimonials">
+        <h2>Testimonials</h2>
+        <div class="testimonial">
+            <p>"This service changed my life! I couldn't be happier with the results."</p>
+            <p>- Happy Customer</p>
+        </div>
+        <div class="testimonial">
+            <p>"Incredible value and amazing support. Highly recommended!"</p>
+            <p>- Satisfied Client</p>
+        </div>
+    </section>
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <div>
+                <button type="submit" class="btn">Send Message</button>
+            </div>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Company Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
